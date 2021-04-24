@@ -6,6 +6,10 @@ Presentation, Diagnosis, Management, Medications, Follow up and Others.
 
 To run the model, first install all dependencies from requirements.txt.
 
+Then you have to download the weights folder from this URL: 
+https://drive.google.com/drive/folders/1rulEfYDYLwsVAhgmCuV4UTkiYbye2B-v?usp=sharing 
+and paste it into the home directory.
+
 Then simply run from the home directory:
 ```
 uvicorn api:app --reload
