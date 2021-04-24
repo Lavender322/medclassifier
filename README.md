@@ -1,6 +1,6 @@
 # Medical classifier
 
-This is a medical classifier which takes either paragraphs or question
+This is a medical classifier which takes either paragraphs or questions
 and classifies them in 7 labels - Overview or Epidemiology (depending on the model choice), 
 Presentation, Diagnosis, Management, Medications, Follow up and Others.
 
