@@ -24,5 +24,5 @@ An example is shown below:
 curl '127.0.0.1:8000/classify' --data '{"query": "How quickly do neurocognitive symptoms resolve in patients with long Covid?"}'
 ```
 Note that I used /classify tag. This corresponds to the first model, which can output Overview separately. 
-However if you use /classify_nosummary, the overview is no longer a possible output, only epidemiology, which a
+However if you use /classify_nosummary, the overview is no longer a possible output, only epidemiology, which is a
 subsection of Overview, but does not also include Overview/Summary like previously.
