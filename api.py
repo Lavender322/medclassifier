@@ -17,6 +17,7 @@ from torch import cuda
 from torch.utils.data import Dataset, DataLoader, RandomSampler, SequentialSampler
 from transformers import BertTokenizer, BertModel, BertConfig, AutoModel, AutoTokenizer, AutoConfig
 
+logging.basicConfig(format="%(asctime)s %(message)s", datefmt="%m/%d/%Y %I:%M:%S %p")
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 app = FastAPI()
