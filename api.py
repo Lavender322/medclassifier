@@ -133,7 +133,6 @@ class Classifier:
                 outputs = torch.sigmoid(outputs).cpu().detach().numpy().tolist()
                 outputs = np.array(outputs) >= 0.5
 
-                print(outputs)
                 return self.convert_outputs(outputs, no_summary=no_summary)
         else:    
             return ["Input text was not a string"]
